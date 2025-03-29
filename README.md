@@ -1,4 +1,4 @@
-# Welcome to your Lovable project
+# Welcome to your StableTrust Landing
 
 ## Project info
 
@@ -8,15 +8,15 @@
 
 There are several ways of editing your application.
 
-**Use Lovable**
+**Use StableTrust**
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/2a86e04f-6b3d-4bf0-93ab-4a11450a192c) and start prompting.
+Simply visit the [StableTrust Landing](https://lovable.dev/projects/2a86e04f-6b3d-4bf0-93ab-4a11450a192c) and start prompting.
 
-Changes made via Lovable will be committed automatically to this repo.
+Changes made via StableTrust will be committed automatically to this repo.
 
 **Use your preferred IDE**
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in StableTrust.
 
 The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
@@ -62,7 +62,7 @@ This project is built with .
 
 ## How can I deploy this project?
 
-Simply open [Lovable](https://lovable.dev/projects/2a86e04f-6b3d-4bf0-93ab-4a11450a192c) and click on Share -> Publish.
+Simply open [StableTrust](https://lovable.dev/projects/2a86e04f-6b3d-4bf0-93ab-4a11450a192c) and click on Share -> Publish.
 
 ## I want to use a custom domain - is that possible?
 

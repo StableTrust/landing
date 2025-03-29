@@ -4,7 +4,8 @@ import { Menu, X, ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useLanguage } from "@/contexts/LanguageContext";
 import LanguageSwitch from "./LanguageSwitch";
-import Logo from "../../../public/logo.svg";
+// 移除原有的 import
+// import Logo from "../../../public/logo.svg";
 
 type SubMenuItem = {
   name: string;
@@ -90,7 +91,7 @@ const Header = () => {
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center">
             <Link to="/" className="flex items-center">
-              <img src={Logo} alt="StableTrust Logo" className="h-10 w-auto" />
+              <img src="/logo.svg" alt="StableTrust Logo" className="h-10 w-auto" />
             </Link>
           </div>
 
