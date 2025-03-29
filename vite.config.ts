@@ -19,4 +19,11 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  // Add build options to improve stability
+  build: {
+    sourcemap: true,
+    commonjsOptions: {
+      include: [/node_modules/],
+    },
+  },
 }));
