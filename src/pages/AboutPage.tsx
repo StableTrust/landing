@@ -11,7 +11,7 @@ const AboutPage = () => {
 
   return (
     <>
-      <PageHeader title="关于我们" subtitle="全球领先的 RWA 区块链平台" />
+      <PageHeader title="关于我们" subtitle="全球领先的 RWA 平台" />
 
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">

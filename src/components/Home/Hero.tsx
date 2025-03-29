@@ -13,7 +13,7 @@ const Hero = () => {
     //   <div className="container mx-auto px-4 z-10">
     //     <div className="max-w-3xl">
     //       <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white font-montserrat mb-4 animate-fade-in">
-    //         全球领先的 RWA 区块链平台
+    //         全球领先的 RWA 平台
     //       </h1>
     //       <p className="text-xl text-gray-200 font-opensans mb-8 animate-fade-in delay-100">
     //         StableTrust 致力于通过区块链技术实现实体资产的数字化和代币化，为客户提供安全、合规、高效的数字资产解决方案。
@@ -46,7 +46,7 @@ const Hero = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="pl-0 md:pl-8 lg:pl-16">
             <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-6">
-              全球领先的 RWA 区块链平台
+              全球领先的 RWA 平台
             </h1>
             <h2 className="text-3xl md:text-4xl font-bold font-montserrat mb-6">
               <span className="text-[#FF0302]">开启现实世界资产投资新时代</span>

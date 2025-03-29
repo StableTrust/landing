@@ -21,7 +21,7 @@ const Footer = () => {
               </Link>
             </div>
             <p className="font-opensans text-gray-300 mb-3 text-sm">
-              全球领先的 RWA 区块链平台，开启现实世界资产投资新时代
+              全球领先的 RWA 平台，开启现实世界资产投资新时代
             </p>
             {/* <p className="font-opensans text-gray-300 mb-3 text-sm">
               开启现实世界资产投资新时代
