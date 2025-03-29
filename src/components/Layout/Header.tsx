@@ -3,43 +3,50 @@ import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Menu, X, ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { useLanguage } from "@/contexts/LanguageContext";
+import LanguageSwitch from "./LanguageSwitch";
 
 type SubMenuItem = {
   name: string;
   path: string;
+  translationKey: string;
 };
 
 type MenuItem = {
   name: string;
   path: string;
+  translationKey: string;
   submenu?: SubMenuItem[];
 };
 
 const menuItems: MenuItem[] = [
-  { name: "首页", path: "/" },
+  { name: "首页", path: "/", translationKey: "nav.home" },
   { 
     name: "关于我们", 
     path: "/about",
+    translationKey: "nav.about",
     submenu: [
-      { name: "公司简介", path: "/about" },
-      { name: "团队介绍", path: "/about/team" },
-      { name: "企业能力", path: "/about/capabilities" }
+      { name: "公司简介", path: "/about", translationKey: "nav.about.company" },
+      { name: "团队介绍", path: "/about/team", translationKey: "nav.about.team" },
+      { name: "企业能力", path: "/about/capabilities", translationKey: "nav.about.capabilities" }
     ]
   },
   { 
     name: "RWA解决方案", 
     path: "/solutions",
+    translationKey: "nav.solutions",
     submenu: [
-      { name: "核心技术", path: "/solutions/technology" },
-      { name: "产品功能", path: "/solutions/features" }
+      { name: "核心技术", path: "/solutions/technology", translationKey: "nav.solutions.technology" },
+      { name: "产品功能", path: "/solutions/features", translationKey: "nav.solutions.features" }
     ]
   },
-  { name: "案例研究", path: "/case-studies" },
-  { name: "资质认证", path: "/certifications" },
-  { name: "联系我们", path: "/contact" }
+  { name: "案例研究", path: "/case-studies", translationKey: "nav.case-studies" },
+  { name: "资质认证", path: "/certifications", translationKey: "nav.certifications" },
+  { name: "联系我们", path: "/contact", translationKey: "nav.contact" }
 ];
 
 const Header = () => {
+  const { t } = useLanguage();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [activeSubmenu, setActiveSubmenu] = useState<string | null>(null);
   const [scrolled, setScrolled] = useState(false);
@@ -92,7 +99,7 @@ const Header = () => {
                   to={item.path} 
                   className="font-montserrat text-secondary hover:text-primary transition-colors duration-200 flex items-center"
                 >
-                  {item.name}
+                  {t(item.translationKey)}
                   {item.submenu && <ChevronDown className="ml-1 w-4 h-4" />}
                 </Link>
                 
@@ -104,7 +111,7 @@ const Header = () => {
                         to={subItem.path} 
                         className="block px-4 py-2 text-sm text-secondary hover:bg-muted hover:text-primary transition-colors duration-200"
                       >
-                        {subItem.name}
+                        {t(subItem.translationKey)}
                       </Link>
                     ))}
                   </div>
@@ -113,15 +120,17 @@ const Header = () => {
             ))}
           </nav>
           
-          <div className="hidden md:block">
+          <div className="hidden md:flex items-center space-x-2">
+            <LanguageSwitch />
             <Button variant="default" className="bg-primary hover:bg-primary/90 text-white">
-              联系我们
+              {t('button.contact')}
             </Button>
           </div>
           
           {/* Mobile Menu Button */}
-          <div className="md:hidden">
-            <button onClick={toggleMenu} className="text-secondary">
+          <div className="md:hidden flex items-center">
+            <LanguageSwitch />
+            <button onClick={toggleMenu} className="text-secondary ml-2">
               {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
           </div>
@@ -140,7 +149,7 @@ const Header = () => {
                       onClick={() => toggleSubmenu(item.name)}
                       className="w-full flex justify-between items-center py-2 text-secondary hover:text-primary transition-colors"
                     >
-                      {item.name}
+                      {t(item.translationKey)}
                       <ChevronDown 
                         className={`w-4 h-4 transition-transform duration-200 ${activeSubmenu === item.name ? "rotate-180" : ""}`} 
                       />
@@ -155,7 +164,7 @@ const Header = () => {
                             className="block py-2 text-sm text-secondary hover:text-primary transition-colors"
                             onClick={toggleMenu}
                           >
-                            {subItem.name}
+                            {t(subItem.translationKey)}
                           </Link>
                         ))}
                       </div>
@@ -167,7 +176,7 @@ const Header = () => {
                     className="block py-2 text-secondary hover:text-primary transition-colors"
                     onClick={toggleMenu}
                   >
-                    {item.name}
+                    {t(item.translationKey)}
                   </Link>
                 )}
               </div>
@@ -175,7 +184,7 @@ const Header = () => {
             
             <div className="mt-4">
               <Button variant="default" className="w-full bg-primary hover:bg-primary/90 text-white">
-                联系我们
+                {t('button.contact')}
               </Button>
             </div>
           </div>

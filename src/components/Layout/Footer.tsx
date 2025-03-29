@@ -1,8 +1,11 @@
 
 import { Link } from "react-router-dom";
 import { Phone, Mail, MapPin, Linkedin, Twitter } from "lucide-react";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 const Footer = () => {
+  const { t } = useLanguage();
+  
   return (
     <footer className="bg-secondary text-white">
       <div className="container mx-auto py-12 px-4">
@@ -28,22 +31,22 @@ const Footer = () => {
             <h3 className="text-xl font-bold font-montserrat mb-4">快速链接</h3>
             <ul className="space-y-2 font-opensans">
               <li>
-                <Link to="/" className="text-gray-300 hover:text-primary transition-colors">首页</Link>
+                <Link to="/" className="text-gray-300 hover:text-primary transition-colors">{t('nav.home')}</Link>
               </li>
               <li>
-                <Link to="/about" className="text-gray-300 hover:text-primary transition-colors">关于我们</Link>
+                <Link to="/about" className="text-gray-300 hover:text-primary transition-colors">{t('nav.about')}</Link>
               </li>
               <li>
-                <Link to="/solutions" className="text-gray-300 hover:text-primary transition-colors">RWA解决方案</Link>
+                <Link to="/solutions" className="text-gray-300 hover:text-primary transition-colors">{t('nav.solutions')}</Link>
               </li>
               <li>
-                <Link to="/case-studies" className="text-gray-300 hover:text-primary transition-colors">案例研究</Link>
+                <Link to="/case-studies" className="text-gray-300 hover:text-primary transition-colors">{t('nav.case-studies')}</Link>
               </li>
               <li>
-                <Link to="/certifications" className="text-gray-300 hover:text-primary transition-colors">资质认证</Link>
+                <Link to="/certifications" className="text-gray-300 hover:text-primary transition-colors">{t('nav.certifications')}</Link>
               </li>
               <li>
-                <Link to="/contact" className="text-gray-300 hover:text-primary transition-colors">联系我们</Link>
+                <Link to="/contact" className="text-gray-300 hover:text-primary transition-colors">{t('nav.contact')}</Link>
               </li>
             </ul>
           </div>
@@ -53,10 +56,10 @@ const Footer = () => {
             <h3 className="text-xl font-bold font-montserrat mb-4">解决方案</h3>
             <ul className="space-y-2 font-opensans">
               <li>
-                <Link to="/solutions/technology" className="text-gray-300 hover:text-primary transition-colors">核心技术</Link>
+                <Link to="/solutions/technology" className="text-gray-300 hover:text-primary transition-colors">{t('nav.solutions.technology')}</Link>
               </li>
               <li>
-                <Link to="/solutions/features" className="text-gray-300 hover:text-primary transition-colors">产品功能</Link>
+                <Link to="/solutions/features" className="text-gray-300 hover:text-primary transition-colors">{t('nav.solutions.features')}</Link>
               </li>
               <li>
                 <Link to="/solutions" className="text-gray-300 hover:text-primary transition-colors">资产数字化</Link>
@@ -72,7 +75,7 @@ const Footer = () => {
 
           {/* Contact Information */}
           <div>
-            <h3 className="text-xl font-bold font-montserrat mb-4">联系我们</h3>
+            <h3 className="text-xl font-bold font-montserrat mb-4">{t('nav.contact')}</h3>
             <ul className="space-y-3 font-opensans">
               <li className="flex items-start">
                 <MapPin className="mr-2 mt-1 flex-shrink-0" size={18} />

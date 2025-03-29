@@ -4,6 +4,7 @@ import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { LanguageProvider } from "./contexts/LanguageContext";
 
 import MainLayout from "./components/Layout/MainLayout";
 import HomePage from "./pages/HomePage";
@@ -25,23 +26,25 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
-        <MainLayout>
-          <Routes>
-            <Route path="/" element={<HomePage />} />
-            <Route path="/about" element={<AboutPage />} />
-            <Route path="/about/team" element={<TeamPage />} />
-            <Route path="/about/capabilities" element={<CapabilitiesPage />} />
-            <Route path="/solutions" element={<SolutionsPage />} />
-            <Route path="/solutions/technology" element={<TechnologyPage />} />
-            <Route path="/solutions/features" element={<FeaturesPage />} />
-            <Route path="/case-studies" element={<CaseStudiesPage />} />
-            <Route path="/certifications" element={<CertificationsPage />} />
-            <Route path="/contact" element={<ContactPage />} />
-            <Route path="*" element={<NotFound />} />
-          </Routes>
-        </MainLayout>
-      </BrowserRouter>
+      <LanguageProvider>
+        <BrowserRouter>
+          <MainLayout>
+            <Routes>
+              <Route path="/" element={<HomePage />} />
+              <Route path="/about" element={<AboutPage />} />
+              <Route path="/about/team" element={<TeamPage />} />
+              <Route path="/about/capabilities" element={<CapabilitiesPage />} />
+              <Route path="/solutions" element={<SolutionsPage />} />
+              <Route path="/solutions/technology" element={<TechnologyPage />} />
+              <Route path="/solutions/features" element={<FeaturesPage />} />
+              <Route path="/case-studies" element={<CaseStudiesPage />} />
+              <Route path="/certifications" element={<CertificationsPage />} />
+              <Route path="/contact" element={<ContactPage />} />
+              <Route path="*" element={<NotFound />} />
+            </Routes>
+          </MainLayout>
+        </BrowserRouter>
+      </LanguageProvider>
     </TooltipProvider>
   </QueryClientProvider>
 );
