@@ -15,7 +15,7 @@ const features = [
   {
     icon: <Layers className="h-10 w-10 text-primary" />,
     title: "定制化解决方案",
-    description: "根据不同行业特点和企业需求，提供定制化的RWA区块链方案"
+    description: "根据不同行业特点和企业需求，提供定制化的 RWA 区块链方案"
   },
   {
     icon: <Globe className="h-10 w-10 text-primary" />,

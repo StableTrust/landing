@@ -65,7 +65,7 @@ const ContactPage = () => {
             <div>
               <h2 className="text-3xl font-bold font-montserrat mb-6">联系我们</h2>
               <p className="text-lg text-gray-700 font-opensans mb-8">
-                无论您是想了解更多关于我们的RWA区块链解决方案，还是希望探讨合作机会，
+                无论您是想了解更多关于我们的 RWA 区块链解决方案，还是希望探讨合作机会，
                 我们的团队都随时准备为您提供支持。请通过以下方式联系我们，或填写表单发送您的咨询。
               </p>
               
@@ -229,7 +229,7 @@ const ContactPage = () => {
             <div className="space-y-8">
               {[
                 {
-                  question: "StableTrust的RWA解决方案适合哪些行业？",
+                  question: "StableTrust的 RWA 解决方案适合哪些行业？",
                   answer: "我们的解决方案广泛适用于房地产、大宗商品、艺术品、金融资产等多个行业，可根据行业特点定制专属方案。"
                 },
                 {
@@ -241,7 +241,7 @@ const ContactPage = () => {
                   answer: "是的，合规性是我们解决方案的核心。我们的系统内置合规框架，满足全球各地区的监管要求，确保资产合规流通。"
                 },
                 {
-                  question: "实施RWA区块链解决方案需要多长时间？",
+                  question: "实施 RWA 区块链解决方案需要多长时间？",
                   answer: "实施时间取决于项目复杂度和客户需求，一般简单项目可在2-3个月内完成，复杂项目可能需要4-6个月。我们会提供详细的项目计划和时间表。"
                 }
               ].map((faq, index) => (

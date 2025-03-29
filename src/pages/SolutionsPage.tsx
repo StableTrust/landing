@@ -13,17 +13,17 @@ const SolutionsPage = () => {
   return (
     <>
       <PageHeader 
-        title="RWA解决方案" 
-        subtitle="通过区块链技术，实现实物资产的数字化和通证化" 
+        title="RWA 解决方案" 
+        subtitle="通过区块链技术，实现实物资产的数字化和代币化" 
         backgroundImage="https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?q=80&w=2000&auto=format"
       />
 
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center mb-16">
-            <h2 className="text-3xl font-bold font-montserrat mb-4">全方位的RWA区块链解决方案</h2>
+            <h2 className="text-3xl font-bold font-montserrat mb-4">全方位的 RWA 区块链解决方案</h2>
             <p className="text-lg text-gray-700 font-opensans">
-              StableTrust为各行业客户提供完整的实物资产数字化解决方案，从资产上链、通证发行到交易管理，
+              StableTrust为各行业客户提供完整的实物资产数字化解决方案，从资产上链、代币发行到交易管理，
               全流程覆盖，安全合规。
             </p>
           </div>
@@ -32,7 +32,7 @@ const SolutionsPage = () => {
             <div>
               <h3 className="text-2xl font-bold font-montserrat mb-4">资产数字化流程</h3>
               <p className="text-lg text-gray-700 font-opensans mb-6">
-                我们的资产数字化流程将传统资产转化为区块链上的数字通证，实现资产的透明化和高效管理。
+                我们的资产数字化流程将传统资产转化为区块链上的数字代币，实现资产的透明化和高效管理。
                 整个流程严格遵循监管要求，确保合法合规。
               </p>
               
@@ -41,7 +41,7 @@ const SolutionsPage = () => {
                   "资产评估与尽职调查",
                   "法律合规审核",
                   "智能合约开发与审计",
-                  "资产上链与通证发行",
+                  "资产上链与代币发行",
                   "二级市场流通支持"
                 ].map((item, index) => (
                   <li key={index} className="flex items-start">
@@ -68,21 +68,21 @@ const SolutionsPage = () => {
             <div className="order-2 md:order-1 rounded-lg overflow-hidden shadow-xl">
               <img 
                 src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=1200&auto=format" 
-                alt="通证发行与管理" 
+                alt="代币发行与管理" 
                 className="w-full h-auto"
               />
             </div>
             <div className="order-1 md:order-2">
-              <h3 className="text-2xl font-bold font-montserrat mb-4">通证发行与管理</h3>
+              <h3 className="text-2xl font-bold font-montserrat mb-4">代币发行与管理</h3>
               <p className="text-lg text-gray-700 font-opensans mb-6">
-                我们提供完整的通证生命周期管理解决方案，包括发行、交易、追踪和清算。通过智能合约实现自动化管理，
+                我们提供完整的代币生命周期管理解决方案，包括发行、交易、追踪和清算。通过智能合约实现自动化管理，
                 提高效率的同时降低运营成本。
               </p>
               
               <ul className="space-y-3 mb-6">
                 {[
-                  "多类型通证标准支持",
-                  "通证发行与分配",
+                  "多类型代币标准支持",
+                  "代币发行与分配",
                   "投资者身份验证",
                   "股息分红自动分配",
                   "二级市场交易支持"
@@ -143,7 +143,7 @@ const SolutionsPage = () => {
           <div className="max-w-4xl mx-auto text-center mb-16">
             <h2 className="text-3xl font-bold font-montserrat mb-4">我们的技术优势</h2>
             <p className="text-lg text-gray-700 font-opensans">
-              StableTrust采用领先的区块链技术架构，为客户提供安全、高效、可扩展的RWA解决方案
+              StableTrust采用领先的区块链技术架构，为客户提供安全、高效、可扩展的 RWA 解决方案
             </p>
           </div>
           
@@ -196,7 +196,7 @@ const SolutionsPage = () => {
           <div className="max-w-4xl mx-auto text-center mb-16">
             <h2 className="text-3xl font-bold font-montserrat mb-4">适用行业</h2>
             <p className="text-lg text-gray-700 font-opensans">
-              我们的RWA解决方案可广泛应用于多个行业，满足不同类型实物资产的数字化需求
+              我们的 RWA 解决方案可广泛应用于多个行业，满足不同类型实物资产的数字化需求
             </p>
           </div>
           
@@ -204,7 +204,7 @@ const SolutionsPage = () => {
             {[
               {
                 title: "房地产",
-                description: "将房地产资产分割为数字通证，降低投资门槛，提高流动性"
+                description: "将房地产资产分割为数字代币，降低投资门槛，提高流动性"
               },
               {
                 title: "大宗商品",
@@ -212,7 +212,7 @@ const SolutionsPage = () => {
               },
               {
                 title: "艺术品",
-                description: "艺术品所有权通证化，实现部分所有权与价值共享"
+                description: "艺术品所有权代币化，实现部分所有权与价值共享"
               },
               {
                 title: "供应链金融",
@@ -248,7 +248,7 @@ const SolutionsPage = () => {
             准备开启您的资产数字化之旅？
           </h2>
           <p className="text-xl font-opensans mb-8 max-w-3xl mx-auto">
-            我们的专业团队随时准备为您提供定制化RWA区块链解决方案
+            我们的专业团队随时准备为您提供定制化 RWA 区块链解决方案
           </p>
           <Button asChild className="bg-white text-primary hover:bg-gray-100 px-8 py-6 text-lg">
             <Link to="/contact">联系我们</Link>

@@ -22,12 +22,12 @@ type CaseStudy = {
 const caseStudies: CaseStudy[] = [
   {
     id: 1,
-    title: "大型商业地产通证化",
+    title: "大型商业地产代币化",
     client: "环球地产集团",
     industry: "房地产",
     image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=800&auto=format",
-    challenge: "环球地产集团拥有多处优质商业地产，但面临资产流动性不足、投资门槛高和管理成本高的挑战。他们希望通过区块链技术将商业地产资产通证化，降低投资门槛，提高流动性。",
-    solution: "StableTrust提供了一站式商业地产通证化解决方案，将价值50亿元的商业地产项目分割为数字通证，实现资产的部分所有权、自动化管理和二级市场交易。方案包括资产评估、法律合规、智能合约开发、资产上链、通证发行与管理等全流程服务。",
+    challenge: "环球地产集团拥有多处优质商业地产，但面临资产流动性不足、投资门槛高和管理成本高的挑战。他们希望通过区块链技术将商业地产资产代币化，降低投资门槛，提高流动性。",
+    solution: "StableTrust提供了一站式商业地产代币化解决方案，将价值50亿元的商业地产项目分割为数字代币，实现资产的部分所有权、自动化管理和二级市场交易。方案包括资产评估、法律合规、智能合约开发、资产上链、代币发行与管理等全流程服务。",
     results: [
       "投资门槛从500万元降至1万元",
       "资产流动性提升300%",
@@ -48,7 +48,7 @@ const caseStudies: CaseStudy[] = [
     industry: "艺术品",
     image: "https://images.unsplash.com/photo-1577083288073-40892c0860a4?q=80&w=800&auto=format",
     challenge: "东方艺术基金拥有多件价值连城的艺术珍品，希望通过区块链技术实现艺术品所有权的部分共享，让更多艺术爱好者能够参与收藏，同时保证艺术品的真实性和所有权的安全性。",
-    solution: "StableTrust开发的艺术品数字化解决方案，通过区块链技术为每件艺术品创建唯一的数字身份，实现艺术品的所有权通证化。系统内置艺术品真实性验证机制、智能分红合约和二级市场交易平台，确保所有权分享的安全与透明。",
+    solution: "StableTrust开发的艺术品数字化解决方案，通过区块链技术为每件艺术品创建唯一的数字身份，实现艺术品的所有权代币化。系统内置艺术品真实性验证机制、智能分红合约和二级市场交易平台，确保所有权分享的安全与透明。",
     results: [
       "艺术品价值评估提高20%",
       "参与收藏的投资者增长10倍",
@@ -101,7 +101,7 @@ const caseStudies: CaseStudy[] = [
     industry: "碳资产",
     image: "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?q=80&w=800&auto=format",
     challenge: "绿色未来联盟希望建立可信的碳资产监测、核算和交易平台，解决碳资产交易中存在的数据可信度低、监管难和交易效率低等问题。",
-    solution: "StableTrust开发的碳资产区块链平台实现了碳排放数据的实时采集、多方验证和加密存储，建立起可信的碳资产生成机制。平台同时支持碳资产的通证化和交易，满足不同行业的碳中和需求。",
+    solution: "StableTrust开发的碳资产区块链平台实现了碳排放数据的实时采集、多方验证和加密存储，建立起可信的碳资产生成机制。平台同时支持碳资产的代币化和交易，满足不同行业的碳中和需求。",
     results: [
       "碳资产数据可信度大幅提升",
       "碳资产交易效率提高200%",
@@ -284,7 +284,7 @@ const CaseStudiesPage = () => {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold font-montserrat mb-6">准备开启您的区块链之旅？</h2>
           <p className="text-xl font-opensans mb-8 max-w-3xl mx-auto">
-            联系我们，了解StableTrust如何为您的业务提供定制化的RWA区块链解决方案
+            联系我们，了解StableTrust如何为您的业务提供定制化的 RWA 区块链解决方案
           </p>
           <a 
             href="/contact" 

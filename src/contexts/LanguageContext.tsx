@@ -32,8 +32,8 @@ const translations: Record<string, Record<Language, string>> = {
     en: 'Capabilities',
   },
   'nav.solutions': {
-    zh: 'RWA解决方案',
-    en: 'RWA Solutions',
+    zh: ' RWA 解决方案',
+    en: ' RWA  Solutions',
   },
   'nav.solutions.technology': {
     zh: '核心技术',

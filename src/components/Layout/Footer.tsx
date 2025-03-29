@@ -14,7 +14,7 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold font-montserrat mb-4">StableTrust</h3>
             <p className="font-opensans text-gray-300 mb-4">
-              全球领先的RWA区块链解决方案提供商，致力于通过区块链技术实现实物资产的数字化和通证化。
+              全球领先的 RWA 区块链解决方案提供商，致力于通过区块链技术实现实物资产的数字化和代币化。
             </p>
             <div className="flex space-x-4 mt-4">
               <a href="#" className="text-white hover:text-primary transition-colors">
@@ -65,7 +65,7 @@ const Footer = () => {
                 <Link to="/solutions" className="text-gray-300 hover:text-primary transition-colors">资产数字化</Link>
               </li>
               <li>
-                <Link to="/solutions" className="text-gray-300 hover:text-primary transition-colors">通证发行与管理</Link>
+                <Link to="/solutions" className="text-gray-300 hover:text-primary transition-colors">代币发行与管理</Link>
               </li>
               <li>
                 <Link to="/solutions" className="text-gray-300 hover:text-primary transition-colors">合规与监管</Link>

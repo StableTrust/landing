@@ -12,10 +12,10 @@ const Hero = () => {
       <div className="container mx-auto px-4 z-10">
         <div className="max-w-3xl">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white font-montserrat mb-4 animate-fade-in">
-            全球领先的RWA区块链解决方案
+            全球领先的 RWA 区块链解决方案
           </h1>
           <p className="text-xl text-gray-200 font-opensans mb-8 animate-fade-in delay-100">
-            StableTrust致力于通过区块链技术实现实物资产的数字化和通证化，为企业提供安全、合规、高效的区块链资产解决方案。
+            StableTrust 致力于通过区块链技术实现实物资产的数字化和代币化，为企业提供安全、合规、高效的区块链资产解决方案。
           </p>
           <div className="flex flex-wrap gap-4 animate-fade-in delay-200">
             <Button asChild className="bg-primary hover:bg-primary/90 text-white px-8 py-6 text-lg">

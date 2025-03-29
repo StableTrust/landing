@@ -5,6 +5,7 @@ import { Menu, X, ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useLanguage } from "@/contexts/LanguageContext";
 import LanguageSwitch from "./LanguageSwitch";
+import Logo from "../../../public/logo.svg";
 
 type SubMenuItem = {
   name: string;
@@ -32,7 +33,7 @@ const menuItems: MenuItem[] = [
     ]
   },
   { 
-    name: "RWA解决方案", 
+    name: " RWA 解决方案", 
     path: "/solutions",
     translationKey: "nav.solutions",
     submenu: [
@@ -86,8 +87,8 @@ const Header = () => {
       <div className="container mx-auto">
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center">
-            <Link to="/" className="text-2xl font-bold font-montserrat text-primary">
-              StableTrust
+            <Link to="/" className="flex items-center">
+              <img src={Logo} alt="StableTrust Logo" className="h-10 w-auto" />
             </Link>
           </div>
           

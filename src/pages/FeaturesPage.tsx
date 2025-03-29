@@ -11,7 +11,7 @@ const FeaturesPage = () => {
     <>
       <PageHeader 
         title="产品功能" 
-        subtitle="StableTrust RWA解决方案的核心功能" 
+        subtitle="StableTrust  RWA 解决方案的核心功能" 
       />
 
       <section className="py-16 bg-white">

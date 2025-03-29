@@ -6,13 +6,13 @@ import { Button } from "@/components/ui/button";
 const solutions = [
   {
     title: "资产数字化",
-    description: "将实物资产转化为区块链上的数字通证，实现资产的透明化和高效管理",
+    description: "将实物资产转化为区块链上的数字代币，实现资产的透明化和高效管理",
     image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=800&auto=format",
     link: "/solutions"
   },
   {
-    title: "通证发行与管理",
-    description: "提供完整的通证生命周期管理，包括发行、交易、追踪和清算",
+    title: "代币发行与管理",
+    description: "提供完整的代币生命周期管理，包括发行、交易、追踪和清算",
     image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=800&auto=format",
     link: "/solutions"
   },
@@ -31,7 +31,7 @@ const SolutionsOverview = () => {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold font-montserrat mb-4">我们的解决方案</h2>
           <p className="text-lg text-gray-600 font-opensans max-w-3xl mx-auto">
-            StableTrust提供全方位的RWA区块链解决方案，满足企业在资产数字化转型中的各种需求
+            StableTrust提供全方位的 RWA 区块链解决方案，满足企业在资产数字化转型中的各种需求
           </p>
         </div>
         

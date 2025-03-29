@@ -14,7 +14,7 @@ const AboutPage = () => {
     <>
       <PageHeader 
         title="关于我们" 
-        subtitle="全球领先的RWA区块链解决方案提供商" 
+        subtitle="全球领先的 RWA 区块链解决方案提供商" 
       />
 
       <section className="py-16 bg-white">
@@ -23,7 +23,7 @@ const AboutPage = () => {
             <div>
               <h2 className="text-3xl font-bold font-montserrat mb-4">公司简介</h2>
               <p className="text-lg text-gray-700 font-opensans mb-4">
-                StableTrust成立于2018年，是一家专注于RWA(Real World Assets)区块链解决方案的科技公司。我们致力于通过区块链技术实现实物资产的数字化和通证化，为全球客户提供安全、合规、高效的区块链资产解决方案。
+                StableTrust成立于2018年，是一家专注于 RWA (Real World Assets)区块链解决方案的科技公司。我们致力于通过区块链技术实现实物资产的数字化和代币化，为全球客户提供安全、合规、高效的区块链资产解决方案。
               </p>
               <p className="text-lg text-gray-700 font-opensans mb-6">
                 凭借我们强大的技术团队和丰富的行业经验，StableTrust已成功服务超过100家企业客户，涵盖房地产、大宗商品、艺术品、金融资产等多个领域，助力实体经济与区块链世界的无缝连接。
@@ -80,7 +80,7 @@ const AboutPage = () => {
                   <div className="md:pl-12">
                     <h3 className="text-xl font-semibold font-montserrat mb-2">2019年</h3>
                     <p className="text-gray-700 font-opensans">
-                      推出首个RWA区块链资产解决方案，完成A轮融资
+                      推出首个 RWA 区块链资产解决方案，完成A轮融资
                     </p>
                   </div>
                 </div>
