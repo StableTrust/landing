@@ -88,7 +88,7 @@ const Header = () => {
       className={`fixed top-0 w-full z-50 transition-all duration-300 ${scrolled ? "bg-white shadow-md" : "bg-transparent"}`}
     >
       <div className="container mx-auto">
-        <div className="flex justify-between items-center py-4">
+        <div className="flex justify-between items-center py-3">
           <div className="flex items-center">
             <Link to="/" className="flex items-center">
               <img src="/logo.svg" alt="StableTrust Logo" className="h-10 w-auto" />

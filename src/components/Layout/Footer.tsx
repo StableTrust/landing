@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Phone, Mail, MapPin, Linkedin, Twitter } from "lucide-react";
+import { Phone, Mail, MapPin, Linkedin, Twitter, Github } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
 
 const Footer = () => {
@@ -7,7 +7,7 @@ const Footer = () => {
 
   return (
     <footer className="bg-gray-900 text-white">
-      <div className="container mx-auto py-8 px-4">
+      <div className="container mx-auto py-10 px-10">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-8">
           {/* Company Information */}
           <div>
@@ -35,11 +35,16 @@ const Footer = () => {
               >
                 <Twitter size={20} />
               </a>
-              <a href="#" className="text-white hover:text-primary transition-colors">
+              <a
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white hover:text-primary transition-colors"
+              >
                 <Linkedin size={20} />
               </a>
               <a
-                href="https://t.me/stabletrust"
+                href="https://t.me/istabletrust"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white hover:text-primary transition-colors"
@@ -59,6 +64,14 @@ const Footer = () => {
                   <path d="m22 2-7 20-4-9-9-4Z" />
                   <path d="M22 2 11 13" />
                 </svg>
+              </a>
+              <a
+                href="https://github.com/StableTrust"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white hover:text-primary transition-colors"
+              >
+                <Github size={20} />
               </a>
             </div>
           </div>
@@ -187,8 +200,8 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="border-t border-gray-800 mt-8 pt-6 text-center font-opensans">
-          <div className="flex flex-col md:flex-row justify-between items-center space-y-2 md:space-y-0">
+        <div className="border-t border-gray-800 mt-12 pt-6 text-center font-opensans">
+          <div className="flex flex-col md:flex-row justify-between items-center space-y-1 md:space-y-1">
             <p className="text-gray-400 text-xs">
               Copyright © {new Date().getFullYear()} StableTrust. All Rights Reserved.
             </p>
@@ -203,7 +216,7 @@ const Footer = () => {
                 to="/risk"
                 className="text-gray-400 text-xs hover:text-primary transition-colors"
               >
-                风险批露
+                风险披露
               </Link>
               <Link
                 to="/privacy"
