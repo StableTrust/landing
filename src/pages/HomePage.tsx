@@ -1,4 +1,3 @@
-
 import Hero from "@/components/Home/Hero";
 import ValueProposition from "@/components/Home/ValueProposition";
 import SolutionsOverview from "@/components/Home/SolutionsOverview";
@@ -14,9 +13,10 @@ const HomePage = () => {
   return (
     <>
       <Hero />
+      <Stats />
       <ValueProposition />
       <SolutionsOverview />
-      <Stats />
+
       <CallToAction />
     </>
   );

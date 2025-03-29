@@ -1,27 +1,26 @@
-
 import { useState, useEffect, useRef } from "react";
 
 const stats = [
   {
     value: 50,
     label: "亿美元",
-    description: "已数字化资产总价值"
+    description: "已数字化资产总价值",
   },
   {
     value: 100,
     label: "+",
-    description: "成功客户案例"
+    description: "成功客户案例",
   },
   {
     value: 25,
     label: "+",
-    description: "全球合作伙伴"
+    description: "全球合作伙伴",
   },
   {
     value: 99.9,
     label: "%",
-    description: "系统稳定性"
-  }
+    description: "系统稳定性",
+  },
 ];
 
 const Stats = () => {
@@ -66,9 +65,7 @@ const Stats = () => {
 
       const newCounts = stats.map((stat, index) => {
         const increment = Math.min(stat.value * easedProgress, stat.value);
-        return Number.isInteger(stat.value)
-          ? Math.floor(increment)
-          : Number(increment.toFixed(1));
+        return Number.isInteger(stat.value) ? Math.floor(increment) : Number(increment.toFixed(1));
       });
 
       setCounts(newCounts);
@@ -85,15 +82,12 @@ const Stats = () => {
   const easeOutQuad = (t: number) => t * (2 - t);
 
   return (
-    <section
-      ref={sectionRef}
-      className="py-20 bg-primary text-white"
-    >
+    <section ref={sectionRef} className="py-20 bg-primary text-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold font-montserrat mb-4">我们的成果</h2>
           <p className="text-lg font-opensans max-w-3xl mx-auto">
-            StableTrust通过区块链技术，已成功为全球客户提供高效、安全的 RWA 解决方案
+            StableTrust 通过区块链技术，已成功为全球客户提供高效、安全的 RWA 解决方案
           </p>
         </div>
 

@@ -1,4 +1,3 @@
-
 import PageHeader from "@/components/Layout/PageHeader";
 import { useEffect } from "react";
 
@@ -9,10 +8,7 @@ const CapabilitiesPage = () => {
 
   return (
     <>
-      <PageHeader 
-        title="企业能力" 
-        subtitle="StableTrust的核心技术与服务能力" 
-      />
+      <PageHeader title="企业能力" subtitle="StableTrust 的核心技术与服务能力" />
 
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4 text-center">
@@ -20,8 +16,8 @@ const CapabilitiesPage = () => {
           <p className="text-lg text-gray-700 font-opensans mb-8">
             企业能力页面正在建设中，敬请期待...
           </p>
-          <a 
-            href="/" 
+          <a
+            href="/"
             className="inline-block px-6 py-3 bg-primary text-white rounded-md font-semibold hover:bg-primary/90 transition-colors"
           >
             返回首页

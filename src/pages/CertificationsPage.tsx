@@ -1,4 +1,3 @@
-
 import PageHeader from "@/components/Layout/PageHeader";
 import { useEffect } from "react";
 
@@ -9,10 +8,7 @@ const CertificationsPage = () => {
 
   return (
     <>
-      <PageHeader 
-        title="资质认证" 
-        subtitle="StableTrust的企业资质与行业认证" 
-      />
+      <PageHeader title="资质认证" subtitle="StableTrust 的企业资质与行业认证" />
 
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4 text-center">
@@ -20,8 +16,8 @@ const CertificationsPage = () => {
           <p className="text-lg text-gray-700 font-opensans mb-8">
             资质认证页面正在建设中，敬请期待...
           </p>
-          <a 
-            href="/" 
+          <a
+            href="/"
             className="inline-block px-6 py-3 bg-primary text-white rounded-md font-semibold hover:bg-primary/90 transition-colors"
           >
             返回首页

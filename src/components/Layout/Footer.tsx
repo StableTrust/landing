@@ -1,85 +1,174 @@
-
 import { Link } from "react-router-dom";
 import { Phone, Mail, MapPin, Linkedin, Twitter } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
 
 const Footer = () => {
   const { t } = useLanguage();
-  
+
   return (
-    <footer className="bg-secondary text-white">
-      <div className="container mx-auto py-12 px-4">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+    <footer className="bg-gray-900 text-white">
+      <div className="container mx-auto py-8 px-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-8">
           {/* Company Information */}
           <div>
-            <h3 className="text-xl font-bold font-montserrat mb-4">StableTrust</h3>
-            <p className="font-opensans text-gray-300 mb-4">
-              全球领先的 RWA 区块链解决方案提供商，致力于通过区块链技术实现实物资产的数字化和代币化。
+            <div className="mb-3">
+              <Link to="/" className="inline-block">
+                <img
+                  src="/logo.png"
+                  alt="StableTrust"
+                  className="h-10 hover:opacity-80 transition-opacity"
+                />
+              </Link>
+            </div>
+            <p className="font-opensans text-gray-300 mb-3 text-sm">
+              全球领先的 RWA 区块链平台，开启现实世界资产投资新时代
             </p>
-            <div className="flex space-x-4 mt-4">
+            {/* <p className="font-opensans text-gray-300 mb-3 text-sm">
+              开启现实世界资产投资新时代
+            </p> */}
+            <div className="flex space-x-6 mt-4">
+              <a
+                href="https://x.com/stabletrust"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white hover:text-primary transition-colors"
+              >
+                <Twitter size={20} />
+              </a>
               <a href="#" className="text-white hover:text-primary transition-colors">
                 <Linkedin size={20} />
               </a>
-              <a href="#" className="text-white hover:text-primary transition-colors">
-                <Twitter size={20} />
+              <a
+                href="https://t.me/stabletrust"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white hover:text-primary transition-colors"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className="lucide lucide-send"
+                >
+                  <path d="m22 2-7 20-4-9-9-4Z" />
+                  <path d="M22 2 11 13" />
+                </svg>
               </a>
             </div>
           </div>
 
           {/* Quick Links */}
-          <div>
-            <h3 className="text-xl font-bold font-montserrat mb-4">快速链接</h3>
-            <ul className="space-y-2 font-opensans">
+          <div className="lg:pl-2">
+            {/* <h3 className="text-xl font-bold font-montserrat mb-3">快速链接</h3>
+            <ul className="space-y-1.5 font-opensans">
               <li>
-                <Link to="/" className="text-gray-300 hover:text-primary transition-colors">{t('nav.home')}</Link>
+                <Link to="/" className="text-gray-300 hover:text-primary transition-colors">
+                  {t("nav.home")}
+                </Link>
               </li>
               <li>
-                <Link to="/about" className="text-gray-300 hover:text-primary transition-colors">{t('nav.about')}</Link>
+                <Link to="/about" className="text-gray-300 hover:text-primary transition-colors">
+                  {t("nav.about")}
+                </Link>
               </li>
               <li>
-                <Link to="/solutions" className="text-gray-300 hover:text-primary transition-colors">{t('nav.solutions')}</Link>
+                <Link
+                  to="/solutions"
+                  className="text-gray-300 hover:text-primary transition-colors"
+                >
+                  {t("nav.solutions")}
+                </Link>
               </li>
               <li>
-                <Link to="/case-studies" className="text-gray-300 hover:text-primary transition-colors">{t('nav.case-studies')}</Link>
+                <Link
+                  to="/case-studies"
+                  className="text-gray-300 hover:text-primary transition-colors"
+                >
+                  {t("nav.case-studies")}
+                </Link>
               </li>
               <li>
-                <Link to="/certifications" className="text-gray-300 hover:text-primary transition-colors">{t('nav.certifications')}</Link>
+                <Link
+                  to="/certifications"
+                  className="text-gray-300 hover:text-primary transition-colors"
+                >
+                  {t("nav.certifications")}
+                </Link>
               </li>
               <li>
-                <Link to="/contact" className="text-gray-300 hover:text-primary transition-colors">{t('nav.contact')}</Link>
+                <Link to="/contact" className="text-gray-300 hover:text-primary transition-colors">
+                  {t("nav.contact")}
+                </Link>
               </li>
-            </ul>
+            </ul> */}
           </div>
 
           {/* Solutions */}
-          <div>
-            <h3 className="text-xl font-bold font-montserrat mb-4">解决方案</h3>
-            <ul className="space-y-2 font-opensans">
+          <div className="lg:pl-2">
+            <h3 className="text-xl font-bold font-montserrat mb-3">{t("nav.pages")}</h3>
+            <ul className="space-y-1.5 font-opensans">
               <li>
-                <Link to="/solutions/technology" className="text-gray-300 hover:text-primary transition-colors">{t('nav.solutions.technology')}</Link>
+                <Link to="/about" className="text-gray-300 hover:text-primary transition-colors">
+                  {t("nav.about")}
+                </Link>
               </li>
               <li>
-                <Link to="/solutions/features" className="text-gray-300 hover:text-primary transition-colors">{t('nav.solutions.features')}</Link>
+                <Link
+                  to="/solutions"
+                  className="text-gray-300 hover:text-primary transition-colors"
+                >
+                  {t("nav.solutions.tokenization")}
+                </Link>
               </li>
               <li>
-                <Link to="/solutions" className="text-gray-300 hover:text-primary transition-colors">资产数字化</Link>
+                <Link
+                  to="/solutions/technology"
+                  className="text-gray-300 hover:text-primary transition-colors"
+                >
+                  {t("nav.solutions.technology")}
+                </Link>
               </li>
               <li>
-                <Link to="/solutions" className="text-gray-300 hover:text-primary transition-colors">代币发行与管理</Link>
+                <Link
+                  to="/solutions/features"
+                  className="text-gray-300 hover:text-primary transition-colors"
+                >
+                  {t("nav.solutions.features")}
+                </Link>
+              </li>
+
+              {/* <li>
+                <Link
+                  to="/solutions"
+                  className="text-gray-300 hover:text-primary transition-colors"
+                >
+                  代币发行与管理
+                </Link>
               </li>
               <li>
-                <Link to="/solutions" className="text-gray-300 hover:text-primary transition-colors">合规与监管</Link>
-              </li>
+                <Link
+                  to="/solutions"
+                  className="text-gray-300 hover:text-primary transition-colors"
+                >
+                  合规与监管
+                </Link>
+              </li> */}
             </ul>
           </div>
 
           {/* Contact Information */}
-          <div>
-            <h3 className="text-xl font-bold font-montserrat mb-4">{t('nav.contact')}</h3>
+          <div className="lg:pl-2">
+            <h3 className="text-xl font-bold font-montserrat mb-4">{t("nav.contact")}</h3>
             <ul className="space-y-3 font-opensans">
               <li className="flex items-start">
                 <MapPin className="mr-2 mt-1 flex-shrink-0" size={18} />
-                <span className="text-gray-300">上海市浦东新区张江高科技园区</span>
+                <span className="text-gray-300">三亚市中央商务区</span>
               </li>
               <li className="flex items-center">
                 <Phone className="mr-2 flex-shrink-0" size={18} />
@@ -87,7 +176,10 @@ const Footer = () => {
               </li>
               <li className="flex items-center">
                 <Mail className="mr-2 flex-shrink-0" size={18} />
-                <a href="mailto:contact@stabletrust.com" className="text-gray-300 hover:text-primary transition-colors">
+                <a
+                  href="mailto:contact@stabletrust.com"
+                  className="text-gray-300 hover:text-primary transition-colors"
+                >
                   contact@stabletrust.com
                 </a>
               </li>
@@ -95,8 +187,38 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="border-t border-gray-700 mt-8 pt-8 text-center font-opensans">
-          <p className="text-gray-400">© {new Date().getFullYear()} StableTrust. 保留所有权利。</p>
+        <div className="border-t border-gray-800 mt-8 pt-6 text-center font-opensans">
+          <div className="flex flex-col md:flex-row justify-between items-center space-y-2 md:space-y-0">
+            <p className="text-gray-400 text-xs">
+              Copyright © {new Date().getFullYear()} StableTrust. All Rights Reserved.
+            </p>
+            <div className="flex space-x-4">
+              <Link
+                to="/disclaimer"
+                className="text-gray-400 text-xs hover:text-primary transition-colors"
+              >
+                免责声明
+              </Link>
+              <Link
+                to="/risk"
+                className="text-gray-400 text-xs hover:text-primary transition-colors"
+              >
+                风险批露
+              </Link>
+              <Link
+                to="/privacy"
+                className="text-gray-400 text-xs hover:text-primary transition-colors"
+              >
+                隐私政策
+              </Link>
+              <Link
+                to="/terms"
+                className="text-gray-400 text-xs hover:text-primary transition-colors"
+              >
+                服务条款
+              </Link>
+            </div>
+          </div>
         </div>
       </div>
     </footer>
