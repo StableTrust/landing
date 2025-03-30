@@ -27,9 +27,9 @@ const AboutPage = () => {
                 家企业客户，涵盖房地产、大宗商品、艺术品、金融资产等多个领域，助力实体经济与区块链世界的无缝连接。
               </p>
               <div className="flex space-x-4">
-                <Button asChild className="bg-primary hover:bg-primary/90 text-white">
+                {/* <Button asChild className="bg-primary hover:bg-primary/90 text-white">
                   <Link to="/about/team">了解我们的团队</Link>
-                </Button>
+                </Button> */}
                 {/* <Button asChild variant="outline" className="text-primary hover:bg-primary/10">
                   <Link to="/about/capabilities" className="flex items-center">
                     查看企业能力 <ArrowRight className="ml-2 h-4 w-4" />
