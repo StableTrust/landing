@@ -229,8 +229,8 @@ const ContactPage = () => {
         </div>
       </section>
 
-      <section className="py-4 bg-white">
-        {/* <div className="container mx-auto px-4 text-center">
+      <section className="py-12 bg-white">
+        <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold font-montserrat mb-6">常见问题</h2>
           <div className="max-w-3xl mx-auto">
             <div className="space-y-8">
@@ -253,7 +253,7 @@ const ContactPage = () => {
                 {
                   question: "实施 RWA 区块链解决方案需要多长时间？",
                   answer:
-                    "实施时间取决于项目复杂度和客户需求，一般简单项目可在2-3个月内完成，复杂项目可能需要4-6个月。我们会提供详细的项目计划和时间表。",
+                    "实施时间取决于项目复杂度和客户需求，一般简单项目可在 2-3 个月内完成，复杂项目可能需要 4-6 个月。我们会提供详细的项目计划和时间表。",
                 },
               ].map((faq, index) => (
                 <div key={index} className="text-left p-6 bg-white rounded-lg shadow-sm">
@@ -263,7 +263,8 @@ const ContactPage = () => {
               ))}
             </div>
           </div>
-        </div> */}
+        </div>
+        <div className="h-12"></div>
       </section>
     </>
   );
