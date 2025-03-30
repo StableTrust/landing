@@ -16,7 +16,6 @@ const HomePage = () => {
       <Stats />
       <ValueProposition />
       <SolutionsOverview />
-
       <CallToAction />
     </>
   );

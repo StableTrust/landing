@@ -101,7 +101,7 @@ const SolutionsPage = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
-              <h3 className="text-2xl font-bold font-montserrat mb-4">合规与监管解决方案</h3>
+              <h3 className="text-2xl font-bold font-montserrat mb-4">合规与监管</h3>
               <p className="text-lg text-gray-700 font-opensans mb-6">
                 合规是数字资产解决方案的核心。我们的系统内置合规框架，满足全球各地区的监管要求，
                 确保资产合规流通。
@@ -109,7 +109,7 @@ const SolutionsPage = () => {
 
               <ul className="space-y-3 mb-6">
                 {[
-                  "KYC/AML集成方案",
+                  "KYC/AML 集成方案",
                   "监管报告自动生成",
                   "合规审计跟踪",
                   "跨境资产流通合规支持",
@@ -129,7 +129,7 @@ const SolutionsPage = () => {
             <div className="rounded-lg overflow-hidden shadow-xl">
               <img
                 src="https://images.unsplash.com/photo-1605810230434-7631ac76ec81?q=80&w=1200&auto=format"
-                alt="合规与监管解决方案"
+                alt="合规与监管"
                 className="w-full h-auto"
               />
             </div>
@@ -193,7 +193,7 @@ const SolutionsPage = () => {
           <div className="max-w-4xl mx-auto text-center mb-16">
             <h2 className="text-3xl font-bold font-montserrat mb-4">适用行业</h2>
             <p className="text-lg text-gray-700 font-opensans">
-              我们的 RWA 解决方案可广泛应用于多个行业，满足不同类型实体资产的数字化需求
+              我们的 RWA 区块链解决方案可广泛应用于多个行业，满足不同类型实体资产的数字化需求
             </p>
           </div>
 
@@ -204,12 +204,12 @@ const SolutionsPage = () => {
                 description: "将房地产资产分割为数字代币，降低投资门槛，提高流动性",
               },
               {
-                title: "大宗商品",
-                description: "实现大宗商品的溯源与交易全流程数字化，提高透明度",
-              },
-              {
                 title: "艺术品",
                 description: "艺术品所有权代币化，实现部分所有权与价值共享",
+              },
+              {
+                title: "大宗商品",
+                description: "实现大宗商品的溯源与交易全流程数字化，提高透明度",
               },
               {
                 title: "供应链金融",

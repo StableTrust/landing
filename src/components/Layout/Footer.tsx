@@ -28,23 +28,23 @@ const Footer = () => {
             </p> */}
             <div className="flex space-x-6 mt-4">
               <a
-                href="https://x.com/stabletrust"
+                href="https://x.com/StableTrust"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white hover:text-primary transition-colors"
               >
                 <Twitter size={20} />
               </a>
-              <a
+              {/* <a
                 href="#"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white hover:text-primary transition-colors"
               >
                 <Linkedin size={20} />
-              </a>
+              </a> */}
               <a
-                href="https://t.me/istabletrust"
+                href="https://t.me/iStableTrust"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white hover:text-primary transition-colors"

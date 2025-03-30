@@ -25,7 +25,7 @@ export default function LanguageSwitch() {
           onClick={() => setLanguage("zh")}
           className={language === "zh" ? "bg-accent" : ""}
         >
-          中文
+          简体中文
         </DropdownMenuItem>
         <DropdownMenuItem
           onClick={() => setLanguage("en")}

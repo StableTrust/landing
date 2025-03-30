@@ -10,26 +10,6 @@ const Hero = () => {
     //      style={{
     //        backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?q=80&w=2000&auto=format')"
     //      }}>
-    //   <div className="container mx-auto px-4 z-10">
-    //     <div className="max-w-3xl">
-    //       <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white font-montserrat mb-4 animate-fade-in">
-    //         全球领先的 RWA 平台
-    //       </h1>
-    //       <p className="text-xl text-gray-200 font-opensans mb-8 animate-fade-in delay-100">
-    //         StableTrust 致力于通过区块链技术实现实体资产的数字化和代币化，为客户提供安全、合规、高效的数字资产解决方案。
-    //       </p>
-    //       <div className="flex flex-wrap gap-4 animate-fade-in delay-200">
-    //         <Button asChild className="bg-primary hover:bg-primary/90 text-white px-8 py-6 text-lg">
-    //           <Link to="/solutions">探索解决方案</Link>
-    //         </Button>
-    //         <Button asChild variant="outline" className="border-white text-black hover:bg-white/10 px-8 py-6 text-lg">
-    //           <Link to="/contact" className="flex items-center">
-    //             联系我们 <ArrowRight className="ml-2 h-5 w-5" />
-    //           </Link>
-    //         </Button>
-    //       </div>
-    //     </div>
-    //   </div>
     // </div>
     <section className="relative bg-gray-50 overflow-hidden py-16 md:py-24">
       <div className="absolute inset-0 z-0 opacity-50">

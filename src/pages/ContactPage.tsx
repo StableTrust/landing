@@ -143,6 +143,7 @@ const ContactPage = () => {
                         onChange={handleChange}
                         placeholder="请输入您的姓名"
                         required
+                        className="placeholder:text-gray-400"
                       />
                     </div>
 
@@ -154,6 +155,7 @@ const ContactPage = () => {
                         value={formData.company}
                         onChange={handleChange}
                         placeholder="请输入您的公司名称"
+                        className="placeholder:text-gray-400"
                       />
                     </div>
                   </div>
@@ -169,6 +171,7 @@ const ContactPage = () => {
                         onChange={handleChange}
                         placeholder="请输入您的电子邮箱"
                         required
+                        className="placeholder:text-gray-400"
                       />
                     </div>
 
@@ -180,6 +183,7 @@ const ContactPage = () => {
                         value={formData.phone}
                         onChange={handleChange}
                         placeholder="请输入您的联系电话"
+                        className="placeholder:text-gray-400"
                       />
                     </div>
                   </div>
@@ -212,6 +216,7 @@ const ContactPage = () => {
                       placeholder="请详细描述您的需求或问题"
                       rows={5}
                       required
+                      className="placeholder:text-gray-400"
                     />
                   </div>
 
@@ -236,7 +241,7 @@ const ContactPage = () => {
             <div className="space-y-8">
               {[
                 {
-                  question: "StableTrust 的 RWA 解决方案适合哪些行业？",
+                  question: "StableTrust 的 RWA 区块链解决方案适合哪些行业？",
                   answer:
                     "我们的解决方案广泛适用于房地产、大宗商品、艺术品、金融资产等多个行业，可根据行业特点定制专属方案。",
                 },

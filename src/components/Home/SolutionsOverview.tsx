@@ -16,7 +16,7 @@ const solutions = [
     link: "/solutions",
   },
   {
-    title: "合规与监管解决方案",
+    title: "合规与监管",
     description: "内置合规框架，满足全球各地区的监管要求，确保资产合规流通",
     image: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?q=80&w=800&auto=format",
     link: "/solutions",

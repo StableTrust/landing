@@ -4,7 +4,6 @@ import { Menu, X, ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useLanguage } from "@/contexts/LanguageContext";
 import LanguageSwitch from "./LanguageSwitch";
-// 移除原有的 import
 // import Logo from "../../../public/logo.svg";
 
 type SubMenuItem = {

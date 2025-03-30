@@ -23,8 +23,8 @@ const AboutPage = () => {
                 解决方案的区块链科技公司。我们致力于通过区块链技术实现实体资产的数字化和代币化，为全球客户提供安全、合规、高效的数字资产解决方案。
               </p>
               <p className="text-lg text-gray-700 font-opensans mb-6">
-                凭借我们强大的技术团队和丰富的行业经验，StableTrust
-                已成功服务超过100家企业客户，涵盖房地产、大宗商品、艺术品、金融资产等多个领域，助力实体经济与区块链世界的无缝连接。
+                凭借我们强大的技术团队和丰富的行业经验，StableTrust 已成功服务超过 100
+                家企业客户，涵盖房地产、大宗商品、艺术品、金融资产等多个领域，助力实体经济与区块链世界的无缝连接。
               </p>
               <div className="flex space-x-4">
                 <Button asChild className="bg-primary hover:bg-primary/90 text-white">

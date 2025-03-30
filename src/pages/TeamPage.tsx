@@ -7,7 +7,7 @@ const executives = [
     name: "张建国",
     position: "创始人兼首席执行官",
     image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=400&auto=format",
-    bio: "拥有15年区块链与金融科技行业经验，曾任职于多家知名金融机构，具有丰富的行业资源与实践经验。张建国先生带领 StableTrust 从创立至今，将公司打造成为 RWA 区块链领域的领导者。",
+    bio: "拥有 15 年区块链与金融科技行业经验，曾任职于多家知名金融机构，具有丰富的行业资源与实践经验。张建国先生带领 StableTrust 从创立至今，将公司打造成为 RWA 区块链领域的领导者。",
     linkedin: "#",
   },
   {
@@ -21,7 +21,7 @@ const executives = [
     name: "王芳",
     position: "首席运营官",
     image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=400&auto=format",
-    bio: "拥有MBA学位和丰富的战略咨询经验，曾在国际管理咨询公司任职高级合伙人。王芳女士在 StableTrust 负责公司整体运营与业务拓展，建立了高效的组织架构与运营体系。",
+    bio: "拥有 MBA 学位和丰富的战略咨询经验，曾在国际管理咨询公司任职高级合伙人。王芳女士在 StableTrust 负责公司整体运营与业务拓展，建立了高效的组织架构与运营体系。",
     linkedin: "#",
   },
 ];
