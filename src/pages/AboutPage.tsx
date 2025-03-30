@@ -19,23 +19,23 @@ const AboutPage = () => {
             <div>
               <h2 className="text-3xl font-bold font-montserrat mb-4">公司简介</h2>
               <p className="text-lg text-gray-700 font-opensans mb-4">
-                StableTrust 成立于 2025 年，是一家专注于 RWA (Real World Assets)
+                StableTrust 成立于 2025 年 ，是一家专注于 RWA (Real World Assets)
                 解决方案的区块链科技公司。我们致力于通过区块链技术实现实体资产的数字化和代币化，为全球客户提供安全、合规、高效的数字资产解决方案。
               </p>
               <p className="text-lg text-gray-700 font-opensans mb-6">
                 凭借我们强大的技术团队和丰富的行业经验，StableTrust
                 已成功服务超过100家企业客户，涵盖房地产、大宗商品、艺术品、金融资产等多个领域，助力实体经济与区块链世界的无缝连接。
               </p>
-              {/* <div className="flex space-x-4">
+              <div className="flex space-x-4">
                 <Button asChild className="bg-primary hover:bg-primary/90 text-white">
                   <Link to="/about/team">了解我们的团队</Link>
                 </Button>
-                <Button asChild variant="outline" className="text-primary hover:bg-primary/10">
+                {/* <Button asChild variant="outline" className="text-primary hover:bg-primary/10">
                   <Link to="/about/capabilities" className="flex items-center">
                     查看企业能力 <ArrowRight className="ml-2 h-4 w-4" />
                   </Link>
-                </Button>
-              </div> */}
+                </Button> */}
+              </div>
             </div>
             <div className="rounded-lg overflow-hidden shadow-xl">
               <img
@@ -48,21 +48,18 @@ const AboutPage = () => {
         </div>
       </section>
 
-      <section className="py-16 bg-muted">
+      {/* <section className="py-16 bg-muted">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold font-montserrat mb-12 text-center">发展历程</h2>
 
-          <div className="relative">
-            {/* Timeline line */}
+          <div className="relative"> 
             <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-primary"></div>
-
-            {/* Timeline items */}
             <div className="space-y-16">
               <div className="relative">
                 <div className="absolute left-1/2 transform -translate-x-1/2 -mt-3 w-6 h-6 rounded-full bg-primary border-4 border-white"></div>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                   <div className="md:text-right md:pr-12">
-                    <h3 className="text-xl font-semibold font-montserrat mb-2">2018年</h3>
+                    <h3 className="text-xl font-semibold font-montserrat mb-2">2022 年 1 月</h3>
                     <p className="text-gray-700 font-opensans">
                       StableTrust 成立，专注于区块链技术研发与应用
                     </p>
@@ -76,9 +73,9 @@ const AboutPage = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                   <div className="md:text-right md:pr-12"></div>
                   <div className="md:pl-12">
-                    <h3 className="text-xl font-semibold font-montserrat mb-2">2019年</h3>
+                    <h3 className="text-xl font-semibold font-montserrat mb-2">2022 年 5 月</h3>
                     <p className="text-gray-700 font-opensans">
-                      推出首个 RWA 数字资产解决方案，完成A轮融资
+                      推出首个 RWA 数字资产解决方案，完成天使轮融资
                     </p>
                   </div>
                 </div>
@@ -88,9 +85,9 @@ const AboutPage = () => {
                 <div className="absolute left-1/2 transform -translate-x-1/2 -mt-3 w-6 h-6 rounded-full bg-primary border-4 border-white"></div>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                   <div className="md:text-right md:pr-12">
-                    <h3 className="text-xl font-semibold font-montserrat mb-2">2020年</h3>
+                    <h3 className="text-xl font-semibold font-montserrat mb-2">2023 年 5 月</h3>
                     <p className="text-gray-700 font-opensans">
-                      拓展全球市场，在新加坡设立亚太区总部
+                      拓展全球市场，在香港设立亚太区总部
                     </p>
                   </div>
                   <div className="md:pl-12"></div>
@@ -102,9 +99,9 @@ const AboutPage = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                   <div className="md:text-right md:pr-12"></div>
                   <div className="md:pl-12">
-                    <h3 className="text-xl font-semibold font-montserrat mb-2">2021年</h3>
+                    <h3 className="text-xl font-semibold font-montserrat mb-2">2023 年 12 月</h3>
                     <p className="text-gray-700 font-opensans">
-                      获得多项区块链专利技术，完成B轮融资
+                      获得多项区块链专利技术，完成 A 轮融资
                     </p>
                   </div>
                 </div>
@@ -114,9 +111,9 @@ const AboutPage = () => {
                 <div className="absolute left-1/2 transform -translate-x-1/2 -mt-3 w-6 h-6 rounded-full bg-primary border-4 border-white"></div>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                   <div className="md:text-right md:pr-12">
-                    <h3 className="text-xl font-semibold font-montserrat mb-2">2022-2023年</h3>
+                    <h3 className="text-xl font-semibold font-montserrat mb-2">2022 - 2025 年</h3>
                     <p className="text-gray-700 font-opensans">
-                      产品线全面升级，服务客户破百家，资产数字化规模超50亿美元
+                      产品线全面升级，服务客户破百家，资产数字化规模超 1 亿美元
                     </p>
                   </div>
                   <div className="md:pl-12"></div>
@@ -125,7 +122,7 @@ const AboutPage = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4 text-center">

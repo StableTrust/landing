@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from "react";
 
 const stats = [
   {
-    value: 50,
+    value: 1,
     label: "亿美元",
     description: "已数字化资产总价值",
   },

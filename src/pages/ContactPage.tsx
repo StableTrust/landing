@@ -83,8 +83,8 @@ const ContactPage = () => {
                   <Phone className="text-primary mr-4 mt-1 flex-shrink-0" size={24} />
                   <div>
                     <h3 className="font-semibold font-montserrat mb-1">联系电话</h3>
-                    <p className="text-gray-700 font-opensans">总机：+86 21 1234 5678</p>
-                    <p className="text-gray-700 font-opensans">商务合作：+86 21 8765 4321</p>
+                    <p className="text-gray-700 font-opensans">总机：0898-88660103</p>
+                    <p className="text-gray-700 font-opensans">商务：+86-16666816820</p>
                   </div>
                 </div>
 
@@ -105,7 +105,7 @@ const ContactPage = () => {
                 <h3 className="text-xl font-semibold font-montserrat mb-4">全球办公室</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div className="p-4 border border-gray-200 rounded-lg">
-                    <h4 className="font-semibold font-montserrat mb-2">上海（总部）</h4>
+                    <h4 className="font-semibold font-montserrat mb-2">三亚（总部）</h4>
                     <p className="text-gray-700 font-opensans text-sm">三亚市中央商务区</p>
                   </div>
                   <div className="p-4 border border-gray-200 rounded-lg">
@@ -114,7 +114,9 @@ const ContactPage = () => {
                   </div>
                   <div className="p-4 border border-gray-200 rounded-lg">
                     <h4 className="font-semibold font-montserrat mb-2">香港</h4>
-                    <p className="text-gray-700 font-opensans text-sm">中环金融街8号国际金融中心</p>
+                    <p className="text-gray-700 font-opensans text-sm">
+                      中环金融街 8 号国际金融中心
+                    </p>
                   </div>
                   <div className="p-4 border border-gray-200 rounded-lg">
                     <h4 className="font-semibold font-montserrat mb-2">东京</h4>
@@ -227,7 +229,7 @@ const ContactPage = () => {
         </div>
       </section>
 
-      <section className="py-16 bg-white">
+      <section className="py-4 bg-white">
         {/* <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold font-montserrat mb-6">常见问题</h2>
           <div className="max-w-3xl mx-auto">

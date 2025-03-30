@@ -65,6 +65,27 @@ const teamMembers = [
   },
 ];
 
+const advisors = [
+  {
+    name: "席教授",
+    position: "顾问",
+    image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=400&auto=format",
+    linkedin: "#",
+  },
+  {
+    name: "刘晓华",
+    position: "研发总监",
+    image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=400&auto=format",
+    linkedin: "#",
+  },
+  {
+    name: "张颖",
+    position: "市场总监",
+    image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=400&auto=format",
+    linkedin: "#",
+  },
+];
+
 const TeamPage = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -146,6 +167,44 @@ const TeamPage = () => {
               </div>
             ))}
           </div>
+
+          <div className="max-w-4xl mx-auto text-center mb-16"></div>
+
+          <div className="max-w-4xl mx-auto text-center mb-16">
+            <h2 className="text-3xl font-bold font-montserrat mb-4">顾问</h2>
+            <p className="text-lg text-gray-700 font-opensans">
+              我们的顾问团队由行业资深专家组成，为 StableTrust 提供专业的咨询服务。
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+            {advisors.map((member, index) => (
+              <div
+                key={index}
+                className="bg-muted rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300 text-center"
+              >
+                <div className="h-48 overflow-hidden">
+                  <img
+                    src={member.image}
+                    alt={member.name}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div className="p-4">
+                  <div className="flex justify-between items-center mb-1">
+                    <h3 className="text-lg font-semibold font-montserrat">{member.name}</h3>
+                    <a
+                      href={member.linkedin}
+                      className="text-primary hover:text-primary/80 transition-colors"
+                    >
+                      <Linkedin size={18} />
+                    </a>
+                  </div>
+                  <p className="text-gray-600 font-opensans">{member.position}</p>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 
@@ -157,7 +216,7 @@ const TeamPage = () => {
             具有创新精神，并希望参与塑造资产数字化的未来，我们期待您的加入。
           </p>
           <a
-            href="/contact"
+            href="/careers"
             className="inline-block px-8 py-3 bg-primary text-white rounded-md font-semibold hover:bg-primary/90 transition-colors"
           >
             查看职位空缺
