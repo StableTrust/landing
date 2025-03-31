@@ -33,7 +33,7 @@ const Hero = () => {
             </h2>
             <p className="text-lg md:text-xl text-gray-600 mb-8">
               StableTrust
-              致力于通过区块链技术实现实体资产的数字化和代币化，为客户提供安全、合规、高效的数字资产解决方案。
+              致力于通过区块链技术实现实体资产的数字化和代币化，为客户提供安全、合规、高效的数字资产解决方案
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button className="bg-[#FF0302] hover:bg-red-600 text-white px-8 py-6 rounded-lg text-lg">

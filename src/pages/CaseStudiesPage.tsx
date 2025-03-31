@@ -179,7 +179,7 @@ const CaseStudiesPage = () => {
             <h2 className="text-3xl font-bold font-montserrat mb-4">成功案例</h2>
             <p className="text-lg text-gray-700 font-opensans">
               StableTrust 已成功帮助众多企业客户实现资产数字化转型，
-              以下案例展示了我们如何通过区块链技术解决客户面临的实际问题。
+              以下案例展示了我们如何通过区块链技术解决客户面临的实际问题
             </p>
           </div>
 

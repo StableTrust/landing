@@ -24,14 +24,14 @@ const SolutionsPage = () => {
             <p className="text-lg text-gray-700 font-opensans">
               StableTrust
               为各行业客户提供完整的实体资产数字化解决方案，从资产上链、代币发行到交易管理，
-              全流程覆盖，安全合规。
+              全流程覆盖，安全合规
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-20">
             <div>
-              <h3 className="text-2xl font-bold font-montserrat mb-4">资产数字化流程</h3>
+              <h3 className="text-2xl font-bold font-montserrat mb-4">资产数字化</h3>
               <p className="text-lg text-gray-700 font-opensans mb-6">
-                我们的资产数字化流程将传统资产转化为区块链上的数字代币，实现资产的透明化和高效管理。
+                我们的资产数字化将传统资产转化为区块链上的数字代币，实现资产的透明化和高效管理。
                 整个流程严格遵循监管要求，确保合法合规。
               </p>
 
@@ -57,7 +57,7 @@ const SolutionsPage = () => {
             <div className="rounded-lg overflow-hidden shadow-xl">
               <img
                 src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=1200&auto=format"
-                alt="资产数字化流程"
+                alt="资产数字化"
                 className="w-full h-auto"
               />
             </div>
@@ -125,6 +125,9 @@ const SolutionsPage = () => {
               {/* <Button asChild className="bg-primary hover:bg-primary/90 text-white">
                 <Link to="/case-studies">查看成功案例</Link>
               </Button> */}
+              <Button asChild className="bg-primary hover:bg-primary/90 text-white">
+                <Link to="/solutions/compliance">了解合规与监管</Link>
+              </Button>
             </div>
             <div className="rounded-lg overflow-hidden shadow-xl">
               <img

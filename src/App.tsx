@@ -13,6 +13,7 @@ import CapabilitiesPage from "./pages/CapabilitiesPage";
 import SolutionsPage from "./pages/SolutionsPage";
 import TechnologyPage from "./pages/TechnologyPage";
 import FeaturesPage from "./pages/FeaturesPage";
+import CompliancePage from "./pages/CompliancePage";
 import CaseStudiesPage from "./pages/CaseStudiesPage";
 import CertificationsPage from "./pages/CertificationsPage";
 import ContactPage from "./pages/ContactPage";
@@ -41,6 +42,7 @@ const App = () => (
               <Route path="/solutions" element={<SolutionsPage />} />
               <Route path="/solutions/technology" element={<TechnologyPage />} />
               <Route path="/solutions/features" element={<FeaturesPage />} />
+              <Route path="/solutions/compliance" element={<CompliancePage />} />
               <Route path="/case-studies" element={<CaseStudiesPage />} />
               <Route path="/certifications" element={<CertificationsPage />} />
               <Route path="/contact" element={<ContactPage />} />

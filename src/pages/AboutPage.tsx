@@ -129,7 +129,7 @@ const AboutPage = () => {
           <h2 className="text-3xl font-bold font-montserrat mb-4">我们的使命</h2>
           <p className="text-lg text-gray-700 font-opensans mb-8 max-w-3xl mx-auto">
             通过区块链技术，打破传统资产管理的限制，创造更加透明、高效、安全的资产管理新范式，
-            赋能实体经济数字化转型。
+            赋能实体经济数字化转型
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">

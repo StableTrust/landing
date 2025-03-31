@@ -101,7 +101,7 @@ const TeamPage = () => {
             <h2 className="text-3xl font-bold font-montserrat mb-4">领导团队</h2>
             <p className="text-lg text-gray-700 font-opensans">
               StableTrust
-              由行业资深专家领衔，拥有丰富的区块链技术与金融行业经验，为客户提供最专业的服务与支持。
+              由行业资深专家领衔，拥有丰富的区块链技术与金融行业经验，为客户提供最专业的服务与支持
             </p>
           </div>
 
@@ -135,7 +135,7 @@ const TeamPage = () => {
             <h2 className="text-3xl font-bold font-montserrat mb-4">核心团队</h2>
             <p className="text-lg text-gray-700 font-opensans">
               我们的核心团队由区块链技术、金融、产品设计等领域的专业人才组成，为 StableTrust
-              的创新与发展提供坚实支持。
+              的创新与发展提供坚实支持
             </p>
           </div>
 
@@ -173,7 +173,7 @@ const TeamPage = () => {
           <div className="max-w-4xl mx-auto text-center mb-16">
             <h2 className="text-3xl font-bold font-montserrat mb-4">顾问</h2>
             <p className="text-lg text-gray-700 font-opensans">
-              我们的顾问团队由行业资深专家组成，为 StableTrust 提供专业的咨询服务。
+              我们的顾问团队由行业资深专家组成，为 StableTrust 提供专业的咨询服务
             </p>
           </div>
 

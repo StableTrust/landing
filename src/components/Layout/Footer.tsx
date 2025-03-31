@@ -7,8 +7,8 @@ const Footer = () => {
 
   return (
     <footer className="bg-gray-900 text-white">
-      <div className="container mx-auto py-10 px-10">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-8">
+      <div className="container mx-auto py-5 px-10">
+        <div className="pt-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-8">
           {/* Company Information */}
           <div>
             <div className="mb-3">
@@ -20,13 +20,13 @@ const Footer = () => {
                 />
               </Link>
             </div>
-            <p className="font-opensans text-gray-300 mb-3 text-sm">
+            <p className="font-opensans text-gray-300 mb-4 text-sm">
               全球领先的 RWA 平台，开启现实世界资产投资新时代
             </p>
             {/* <p className="font-opensans text-gray-300 mb-3 text-sm">
               开启现实世界资产投资新时代
             </p> */}
-            <div className="flex space-x-6 mt-4">
+            <div className="flex space-x-6 mt-5">
               <a
                 href="https://x.com/StableTrust"
                 target="_blank"
@@ -200,7 +200,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="border-t border-gray-800 mt-12 pt-6 text-center font-opensans">
+        <div className="border-t border-gray-800 mt-14 pt-4 text-center font-opensans">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-1 md:space-y-1">
             <p className="text-gray-400 text-xs">
               Copyright © {new Date().getFullYear()} StableTrust. All Rights Reserved.
