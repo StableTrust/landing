@@ -139,7 +139,7 @@ const Footer = () => {
                   {t("nav.solutions.tokenization")}
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link
                   to="/solutions/technology"
                   className="text-gray-300 hover:text-primary transition-colors"
@@ -154,7 +154,7 @@ const Footer = () => {
                 >
                   {t("nav.solutions.features")}
                 </Link>
-              </li>
+              </li> */}
               {/* <li>
                 <Link
                   to="/solutions"
@@ -163,14 +163,14 @@ const Footer = () => {
                   代币发行与管理
                 </Link>
               </li> */}
-              <li>
+              {/* <li>
                 <Link
                   to="/solutions/compliance"
                   className="text-gray-300 hover:text-primary transition-colors"
                 >
                   {t("nav.solutions.compliance")}
                 </Link>
-              </li>
+              </li> */}
             </ul>
           </div>
 
