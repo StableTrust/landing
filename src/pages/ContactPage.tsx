@@ -92,11 +92,11 @@ const ContactPage = () => {
                   <Mail className="text-primary mr-4 mt-1 flex-shrink-0" size={24} />
                   <div>
                     <h3 className="font-semibold font-montserrat mb-1">电子邮箱</h3>
+                    <p className="text-gray-700 font-opensans">技术支持：support@stabletrust.com</p>
                     <p className="text-gray-700 font-opensans">
                       商务合作：business@stabletrust.com
                     </p>
                     <p className="text-gray-700 font-opensans">媒体垂询：media@stabletrust.com</p>
-                    <p className="text-gray-700 font-opensans">技术支持：support@stabletrust.com</p>
                   </div>
                 </div>
               </div>
@@ -191,6 +191,7 @@ const ContactPage = () => {
                   <div className="space-y-2">
                     <Label htmlFor="enquiryType">咨询类型 *</Label>
                     <select
+                      title="选择咨询类型"
                       id="enquiryType"
                       name="enquiryType"
                       value={formData.enquiryType}
@@ -199,9 +200,10 @@ const ContactPage = () => {
                       required
                     >
                       <option value="general">一般咨询</option>
-                      <option value="sales">产品与服务</option>
-                      <option value="partnership">商务合作</option>
                       <option value="technical">技术支持</option>
+                      <option value="sales">产品与服务</option>
+                      <option value="compliance">合规咨询</option>
+                      <option value="partnership">商务合作</option>
                       <option value="media">媒体垂询</option>
                     </select>
                   </div>

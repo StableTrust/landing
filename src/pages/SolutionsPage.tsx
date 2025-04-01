@@ -50,9 +50,9 @@ const SolutionsPage = () => {
                 ))}
               </ul>
 
-              <Button asChild className="bg-primary hover:bg-primary/90 text-white">
+              {/* <Button asChild className="bg-primary hover:bg-primary/90 text-white">
                 <Link to="/solutions/technology">了解技术细节</Link>
-              </Button>
+              </Button> */}
             </div>
             <div className="rounded-lg overflow-hidden shadow-xl">
               <img
@@ -93,9 +93,9 @@ const SolutionsPage = () => {
                 ))}
               </ul>
 
-              <Button asChild className="bg-primary hover:bg-primary/90 text-white">
+              {/* <Button asChild className="bg-primary hover:bg-primary/90 text-white">
                 <Link to="/solutions/features">了解产品功能</Link>
-              </Button>
+              </Button> */}
             </div>
           </div>
 
@@ -125,9 +125,9 @@ const SolutionsPage = () => {
               {/* <Button asChild className="bg-primary hover:bg-primary/90 text-white">
                 <Link to="/case-studies">查看成功案例</Link>
               </Button> */}
-              <Button asChild className="bg-primary hover:bg-primary/90 text-white">
+              {/* <Button asChild className="bg-primary hover:bg-primary/90 text-white">
                 <Link to="/solutions/compliance">了解合规与监管</Link>
-              </Button>
+              </Button> */}
             </div>
             <div className="rounded-lg overflow-hidden shadow-xl">
               <img

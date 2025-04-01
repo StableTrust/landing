@@ -92,6 +92,9 @@ const Header = () => {
             <Link to="/" className="flex items-center">
               <img src="/logo.svg" alt="StableTrust Logo" className="h-10 w-auto" />
             </Link>
+            {/* <Link to="/" className="text-2xl font-bold font-montserrat text-primary">
+              StableTrust
+            </Link> */}
           </div>
 
           {/* Desktop Navigation */}
