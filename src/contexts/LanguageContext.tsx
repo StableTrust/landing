@@ -46,6 +46,10 @@ const translations: Record<string, Record<Language, string>> = {
     zh: "产品功能",
     en: "Features",
   },
+  "nav.solutions.compliance": {
+    zh: " 合规与监管",
+    en: " Compliance",
+  },
   "nav.case-studies": {
     zh: "案例研究",
     en: "Case Studies",

@@ -155,7 +155,6 @@ const Footer = () => {
                   {t("nav.solutions.features")}
                 </Link>
               </li>
-
               {/* <li>
                 <Link
                   to="/solutions"
@@ -163,15 +162,15 @@ const Footer = () => {
                 >
                   代币发行与管理
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link
-                  to="/solutions"
+                  to="/solutions/compliance"
                   className="text-gray-300 hover:text-primary transition-colors"
                 >
-                  合规与监管
+                  {t("nav.solutions.compliance")}
                 </Link>
-              </li> */}
+              </li>
             </ul>
           </div>
 
@@ -185,7 +184,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center">
                 <Phone className="mr-2 flex-shrink-0" size={18} />
-                <span className="text-gray-300">+86-16666816820</span>
+                <span className="text-gray-300">0898-88660103</span>
               </li>
               <li className="flex items-center">
                 <Mail className="mr-2 flex-shrink-0" size={18} />
@@ -200,7 +199,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="border-t border-gray-800 mt-14 pt-4 text-center font-opensans">
+        <div className="border-t border-gray-800 mt-10 pt-5 text-center font-opensans">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-1 md:space-y-1">
             <p className="text-gray-400 text-xs">
               Copyright © {new Date().getFullYear()} StableTrust. All Rights Reserved.
