@@ -205,6 +205,12 @@ const RiskPage = () => {
                   legal@stabletrust.com
                 </a>
               </p>
+              {/* <p className="text-gray-700 font-opensans mb-2">
+                地址：三亚市中央商务区
+              </p>
+              <p className="text-gray-700 font-opensans">
+                电话：0898-88660103
+              </p> */}
             </div>
             <div className="text-center mt-16">
               <p className="text-gray-600 font-opensans italic">
